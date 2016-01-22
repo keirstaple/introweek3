@@ -1,3 +1,30 @@
+.jumbotron {
+  text-align: center;
+  background-color: #ffe6cc;
+}
+
+body {
+  background-color: #e6e6e6;
+}
+
+#page-content-wrapper {
+  float: left;
+  margin-left: 0%;
+  margin-right: 5%;
+  margin-bottom: 0px;
+  padding: 2%;
+  padding-bottom: 100%;
+  background-color: #00b358;
+}
+
+#page-content-wrapper h5{
+  color: #ffe6cc;
+}
+
+#page-content-wrapper p{
+  color: white;
+}
+
 #result {
   display: none;
 }

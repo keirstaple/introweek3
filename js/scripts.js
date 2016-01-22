@@ -1,8 +1,4 @@
-var wrongInput = function(userNumber) {
-  if (userNumber <= 0) {
-		return "Please enter a number greater than 0";
-	}
-};
+//Business Logic
 
 var countUpTo = function(userNumber) {
   var emptyArray = [];
@@ -22,22 +18,32 @@ var countUpTo = function(userNumber) {
     return emptyArray;
 };
 
+var wrongInput = function(userNumber) {
+  if (userNumber <= 0) {
+		return "Please enter a number greater than 0";
+	}
+};
+
+//User Interface Logic
 
 $(document).ready(function() {
-  $("form").submit(function(event) {
+  $("form#formSubmit").submit(function(event) {
     debugger;
     var userNumber = parseInt($("input#UpTo").val());
 
     var result = countUpTo(userNumber)
-		 	result.forEach(function(number) {
-				$(".listofresults").append("<li>" + number + "</li>");
+		  result.forEach(function(number) {
+  			$(".listofresults").append("<li>" + number + "</li>");
 			});
 
     var invalid = wrongInput(userNumber);
 
 
-	$("#result").show();
-  $(".invalid").text(invalid)
-  event.preventDefault();
+  	$("#result").show();
+    $(".invalid").text(invalid);
+
+    document.getElementById("formSubmit").reset();
+
+    event.preventDefault();
   });
 });
