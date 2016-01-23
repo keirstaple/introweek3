@@ -42,8 +42,6 @@ $(document).ready(function() {
   	$("#result").show();
     $(".invalid").text(invalid);
 
-    document.getElementById("formSubmit").reset();
-
     event.preventDefault();
   });
 });
