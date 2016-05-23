@@ -1,12 +1,14 @@
-# _{Ping-Pong}_
+# _Ping-Pong_
 
-#### _{Enter a number and the program will play ping-pong with the numbers}_
+#### _Enter a number and the program will play ping-pong with the numbers_
 
-#### By _**{Keir Staple}**_
+#### By _**Keir Staple**_
 
 ## Description
 
-_{This is a program that allows you to enter a number and then the page will display every number from 1 to the entered number in an unordered list. Multiples of 3 will be replaced with 'ping', multiples of 5 will be replaced with 'pong', and multiples of both 3 and 5 will be replaced with 'pingpong'. There is a left sidebar indicating the level 2 course I would like to take.}_
+_This is a program that allows you to enter a number and then the page will display every number from 1 to the entered number in an unordered list. Multiples of 3 will be replaced with 'ping', multiples of 5 will be replaced with 'pong', and multiples of both 3 and 5 will be replaced with 'pingpong'. There is a left sidebar indicating the level 2 course I would like to take._
+
+[Link to GH Pages](keirstaple.github.io/introweek3)
 
 ## Setup/Installation Requirements
 
