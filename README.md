@@ -8,7 +8,7 @@
 
 _This is a program that allows you to enter a number and then the page will display every number from 1 to the entered number in an unordered list. Multiples of 3 will be replaced with 'ping', multiples of 5 will be replaced with 'pong', and multiples of both 3 and 5 will be replaced with 'pingpong'. There is a left sidebar indicating the level 2 course I would like to take._
 
-[Link to GH Pages](keirstaple.github.io/introweek3)
+[Link to GH Pages](http://keirstaple.github.io/introweek3/)
 
 ## Setup/Installation Requirements
 
